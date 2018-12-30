@@ -18,6 +18,12 @@ public class Project1 {
             i = input.nextInt();
         }
         
+        for (i = 0; i < allNumbers.length; i++) {
+            if (allNumbers[i] != 0)
+                System.out.println((i-100) + " repeated " + allNumbers[i] + " times");
+            
+        }
+        
         
         
     }
